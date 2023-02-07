@@ -34,8 +34,8 @@ public class PersonGenerator {
 
             age = 2023 - YearofBirth;
 
-            System.out.printf("%-10s %-15s %-15s %-10s %-5d\n", "ID#", "Firstname", "Lastname", "Title", "YOB");
-            System.out.printf("%-10s %-15s %-15s %-10s %-5d\n", ID, FirstName, LastName, Title, YearofBirth);
+            System.out.printf("%-15s %-15s %-15s %-10s %-5s\n", "ID#", "First Name", "Last Name", "Title", "YOB");
+            System.out.printf("%-15s %-15s %-15s %-10s %-5d\n", ID, FirstName, LastName, Title, YearofBirth);
 
 
 
